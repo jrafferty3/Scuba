@@ -22,6 +22,7 @@ function Start ()
 
 function Update () 
 	{
+		//Debug.Log(collide);
             if ((transform.position.y < waterLevel) != isUnderwater) 
 			{
                 isUnderwater = transform.position.y < waterLevel;

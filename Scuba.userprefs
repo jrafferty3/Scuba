@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Dropbox\LastSemster\Research\mech_gen_player\TwitterBot\Assets\Resources\scripts\game.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\scripts\UnderWater.js">
     <Files>
-      <File FileName="..\..\Dropbox\LastSemster\Research\mech_gen_player\TwitterBot\Assets\Resources\scripts\game.cs" Line="451" Column="1" />
+      <File FileName="Assets\Resources\scripts\UnderWater.js" Line="8" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
