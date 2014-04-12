@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\scripts\UnderWater.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\scripts\lookAt.cs">
     <Files>
-      <File FileName="Assets\Resources\scripts\UnderWater.js" Line="8" Column="8" />
+      <File FileName="Assets\Resources\scripts\swimming.cs" Line="31" Column="3" />
+      <File FileName="Assets\Resources\scripts\lookAt.cs" Line="22" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
