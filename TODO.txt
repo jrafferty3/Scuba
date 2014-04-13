@@ -3,13 +3,16 @@ pop ears - sonify
 exhale - sonify
 acending - alarm
 id - sonify
+id display
 
 Chul:
 low,med,high - ambiant
 return to boat - sonify
+time remaining display
 
 Blake:
 low oxy - alarm
 equip damage - alarm
 oxy/nitro too high - alarm
 weather - alarm
+boat location display
