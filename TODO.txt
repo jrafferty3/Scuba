@@ -1,0 +1,15 @@
+John:
+pop ears - sonify
+exhale - sonify
+acending - alarm
+id - sonify
+
+Chul:
+low,med,high - ambiant
+return to boat - sonify
+
+Blake:
+low oxy - alarm
+equip damage - alarm
+oxy/nitro too high - alarm
+weather - alarm
