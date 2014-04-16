@@ -8,10 +8,13 @@ public class swimming : MonoBehaviour {
 	private bool collision = false;
 	private bool fast = false;
 	public static bool surface = false;
+	private float last_y;
+	private int sound_dist = 5;
 
 	// Use this for initialization
 	void Start () {
 		distance = start_distance;
+		last_y = transform.position.y;
 	}
 
 	// Update is called once per frame
@@ -53,8 +56,16 @@ public class swimming : MonoBehaviour {
 		} else {
 			setSurface(false);
 		}
-		if (surface)
-			Debug.Log ("surface");
+
+		if (last_y - transform.position.y >= sound_dist) {
+			//play pop
+			Debug.Log("pop");
+			last_y = transform.position.y;
+		} else if (last_y - transform.position.y <= -sound_dist) {
+			//play breath
+			Debug.Log("breath");
+			last_y = transform.position.y;
+		}
 	}
 
 	static void setSurface(bool set){
