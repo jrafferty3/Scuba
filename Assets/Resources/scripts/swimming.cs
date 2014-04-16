@@ -4,7 +4,7 @@ using System.Collections;
 public class swimming : MonoBehaviour {
 	public int start_distance = 4;
 	private int distance;
-	private bool collision = false;
+	public static bool collision = false;
 
 	// Use this for initialization
 	void Start () {
