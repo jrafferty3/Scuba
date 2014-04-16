@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\scripts\lookAt.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\Research\mech_gen_player\TwitterBot\Assets\Resources\scripts\game.cs">
     <Files>
-      <File FileName="Assets\Resources\scripts\swimming.cs" Line="31" Column="3" />
-      <File FileName="Assets\Resources\scripts\lookAt.cs" Line="22" Column="3" />
+      <File FileName="..\Research\mech_gen_player\TwitterBot\Assets\Resources\scripts\game.cs" Line="152" Column="71" />
+      <File FileName="..\Research\mech_gen_player\TwitterBot\Assets\Resources\scripts\world_setup.cs" Line="27" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
