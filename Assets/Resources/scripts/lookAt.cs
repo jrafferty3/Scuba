@@ -16,5 +16,8 @@ public class lookAt: MonoBehaviour
 	{
 		//find the vector pointing from our position to the target
 		transform.LookAt (Target);
+		transform.forward = transform.forward * -1;
+
+
 	}
 }
