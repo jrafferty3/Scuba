@@ -2,6 +2,12 @@
 using System.Collections;
 
 public class swimming : MonoBehaviour {
+
+	public AudioSource source;
+	public AudioClip pop;
+	public AudioClip exhale;
+	public AudioClip alarm;
+
 	private float start_distance = 2f;
 	private float max_dist = 8f;
 	public float distance;
@@ -9,7 +15,7 @@ public class swimming : MonoBehaviour {
 	private bool fast = false;
 	public static bool surface = false;
 	private float last_y;
-	private int sound_dist = 5;
+	private int sound_dist = 10;
 
 	// Use this for initialization
 	void Start () {
@@ -50,6 +56,12 @@ public class swimming : MonoBehaviour {
 		}
 		if (fast) {
 			//play alarm
+			source.clip = alarm;
+			if (!source.isPlaying)
+					source.Play ();
+		} else {
+			if(source.isPlaying)
+				source.Stop();
 		}
 		if (this.transform.position.y > -0.5) {
 			setSurface(true);
@@ -59,11 +71,13 @@ public class swimming : MonoBehaviour {
 
 		if (last_y - transform.position.y >= sound_dist) {
 			//play pop
-			Debug.Log("pop");
+			source.PlayOneShot(pop,1f);
+			//Debug.Log("pop");
 			last_y = transform.position.y;
 		} else if (last_y - transform.position.y <= -sound_dist) {
-			//play breath
-			Debug.Log("breath");
+			//play exhale
+			source.PlayOneShot(exhale,0.1f);
+			//Debug.Log("exhale");
 			last_y = transform.position.y;
 		}
 	}
