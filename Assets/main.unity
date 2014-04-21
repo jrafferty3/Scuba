@@ -1836,8 +1836,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 1109111169}
-  good: {fileID: 8300000, guid: 93783d6d017f9dd4db0922a398911220, type: 3}
-  bad: {fileID: 8300000, guid: cc40cf99f9abd88409ed6d2c120b10a4, type: 3}
+  coral: {fileID: 8300000, guid: 473acace7bc60a64e983e1c92fcc7eb1, type: 3}
+  jfish: {fileID: 8300000, guid: 48206048971ff2b4d8bbffb201067391, type: 3}
+  school: {fileID: 8300000, guid: fcebf312851aff94a9cc915c357cf393, type: 3}
+  whale: {fileID: 8300000, guid: 4cc8033df07b785409ddd3b7e52a9e36, type: 3}
   text: {fileID: 2075938696}
 --- !u!114 &1109111172
 MonoBehaviour:

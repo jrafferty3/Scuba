@@ -4,8 +4,10 @@ using System.Collections.Generic;
 
 public class identify : MonoBehaviour {
 	public AudioSource source;
-	public AudioClip good;
-	public AudioClip bad;
+	public AudioClip coral;
+	public AudioClip jfish;
+	public AudioClip school;
+	public AudioClip whale;
 	public TextMesh text;
 
 	private Dictionary<string, string> disp;
@@ -34,10 +36,14 @@ public class identify : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Z) && !index.Equals("") && !stg1){
 			//play sound
 			stg1 = true;
-			if(index.Equals("coral") || index.Equals("jfish")){
-				source.PlayOneShot(bad,0.5f);
+			if(index.Equals("coral")){
+				source.PlayOneShot(coral,0.3f);
+			}else if(index.Equals("jfish")){
+				source.PlayOneShot(jfish,0.3f);
+			}else if(index.Equals("school")){
+				source.PlayOneShot(school,0.3f);
 			}else{
-				source.PlayOneShot(good,0.5f);
+				source.PlayOneShot(whale,0.3f);
 			}
 		}else if (Input.GetKeyDown (KeyCode.Z) && !index.Equals("") && stg1){
 			//display info
