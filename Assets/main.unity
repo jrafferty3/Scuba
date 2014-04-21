@@ -1820,9 +1820,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34aad06a1213ac249bb1f0f863f3e9c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lowOxygen: {fileID: 0}
-  highNitrogen: {fileID: 0}
-  damage: {fileID: 0}
+  lowOxygen: {fileID: 8300000, guid: 80a94457c1623da43a68ab41a6645534, type: 3}
+  highNitrogen: {fileID: 8300000, guid: a8344bc7eefc45d43b85b91d84b82aa4, type: 3}
+  damage: {fileID: 8300000, guid: c71e1f0cb8b092246b53e3a5302f4cff, type: 3}
   weather: {fileID: 8300000, guid: ba0576ade6c940f418f0b4292b40716e, type: 3}
 --- !u!114 &1109111171
 MonoBehaviour:
