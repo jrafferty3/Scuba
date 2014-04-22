@@ -1824,6 +1824,7 @@ MonoBehaviour:
   highNitrogen: {fileID: 8300000, guid: a8344bc7eefc45d43b85b91d84b82aa4, type: 3}
   damage: {fileID: 8300000, guid: c71e1f0cb8b092246b53e3a5302f4cff, type: 3}
   weather: {fileID: 8300000, guid: ba0576ade6c940f418f0b4292b40716e, type: 3}
+  returntoBoat: {fileID: 8300000, guid: 4e6ff4c0c36449249b6da92e39c43a38, type: 3}
 --- !u!114 &1109111171
 MonoBehaviour:
   m_ObjectHideFlags: 0
