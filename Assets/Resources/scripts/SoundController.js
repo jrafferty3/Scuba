@@ -6,6 +6,7 @@ var lowOxygen: AudioClip;
 var highNitrogen: AudioClip;
 var damage: AudioClip;
 var weather: AudioClip;
+var returntoBoat: AudioClip;
 private var keyDown = false;
 
 function Update () {
@@ -26,10 +27,14 @@ function Update () {
 			audio.PlayOneShot(weather, 0.3);
 			keyDown = true;
 		}
+		else if (Input.GetKey("y")) {
+			audio.PlayOneShot(returntoBoat, 0.3);
+			keyDown = true;
+		}
 		
 	}
 	else {
-		if (!Input.GetKey("u") && !Input.GetKey("i") && !Input.GetKey("o") && !Input.GetKey("p")) {
+		if (!Input.GetKey("u") && !Input.GetKey("i") && !Input.GetKey("o") && !Input.GetKey("p") && !Input.GetKey("y")) {
 			keyDown = false;
 		}
 	}
