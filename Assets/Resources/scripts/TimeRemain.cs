@@ -8,6 +8,8 @@ public class TimeRemain : MonoBehaviour {
 	public TextMesh t;
 	public GameObject g;
 	public int counter;
+	private bool keyDown = false;
+
 	// Use this for initialization
 	void Start () {
 		timeLeft = 120*60;
@@ -29,6 +31,15 @@ public class TimeRemain : MonoBehaviour {
 		min = timeLeft / 60;
 		second = timeLeft % 60;
 		t.text = min.ToString() + ":" + second.ToString ();
+
+		if (Input.GetKey("r") && !keyDown) {
+			this.renderer.enabled = !this.renderer.enabled;
+			keyDown = true;
+		}
+		if (!Input.GetKey ("r") && keyDown)
+			keyDown = false;
+
+
 	
 	}
 }
