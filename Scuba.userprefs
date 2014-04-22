@@ -1,10 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\scripts\identify.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\scripts\Ambient.cs">
     <Files>
-      <File FileName="Assets\Resources\scripts\identify.cs" Line="65" Column="1" />
-      <File FileName="Assets\Resources\scripts\identify.cs" Line="6" Column="28" />
+      <File FileName="Assets\Resources\scripts\lookAt.cs" Line="24" Column="41" />
+      <File FileName="Assets\Resources\scripts\identify.cs" Line="1" Column="1" />
       <File FileName="Assets\Resources\scripts\swimming.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\scripts\TimeRemain.cs" Line="38" Column="4" />
+      <File FileName="Assets\Resources\scripts\SoundController.js" Line="9" Column="29" />
+      <File FileName="Assets\Resources\scripts\Ambient.cs" Line="17" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
