@@ -12,23 +12,23 @@ private var keyDown = false;
 function Update () {
 	if (!keyDown) {
 		if (Input.GetKey("u")) {
-			audio.PlayOneShot(lowOxygen, 0.3);
+			audio.PlayOneShot(lowOxygen, 0.6);
 			keyDown = true;
 		}
 		else if (Input.GetKey("i")) {
-			audio.PlayOneShot(highNitrogen, 0.3);
+			audio.PlayOneShot(highNitrogen, 0.6);
 			keyDown = true;
 		}
 		else if (Input.GetKey("o")) {
-			audio.PlayOneShot(damage, 0.3);
+			audio.PlayOneShot(damage, 0.6);
 			keyDown = true;
 		}
 		else if (Input.GetKey("p")) {
-			audio.PlayOneShot(weather, 0.3);
+			audio.PlayOneShot(weather, 0.6);
 			keyDown = true;
 		}
 		else if (Input.GetKey("y")) {
-			audio.PlayOneShot(returntoBoat, 0.3);
+			audio.PlayOneShot(returntoBoat, 0.6);
 			keyDown = true;
 		}
 		

@@ -2257,7 +2257,7 @@ GameObject:
   - 23: {fileID: 1181449468}
   - 114: {fileID: 1181449467}
   m_Layer: 0
-  m_Name: Quad
+  m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2282,7 +2282,7 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1181449466}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -2312,7 +2312,7 @@ Transform:
   m_GameObject: {fileID: 1181449466}
   m_LocalRotation: {x: .0239857361, y: .804998934, z: -.0326216035, w: .591892898}
   m_LocalPosition: {x: .786298275, y: .436158895, z: 1.045434}
-  m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
+  m_LocalScale: {x: .0399999991, y: .0399999991, z: .200000003}
   m_Children: []
   m_Father: {fileID: 159593820}
 --- !u!1 &1266810546

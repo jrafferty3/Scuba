@@ -11,6 +11,9 @@ public class Ambient : MonoBehaviour {
 		one = GameObject.Find ("Amb1");
 		two = GameObject.Find ("Amb2");
 		three = GameObject.Find ("Amb3");
+		one.audio.volume = 0.8f;
+		two.audio.volume = 0.6f;
+		three.audio.volume = 0.6f;
 	
 	}
 	
