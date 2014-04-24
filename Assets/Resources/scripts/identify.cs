@@ -38,12 +38,16 @@ public class identify : MonoBehaviour {
 			stg1 = true;
 			if(index.Equals("coral")){
 				source.PlayOneShot(coral,0.3f);
+				text.text = "Branching Fire Coral";
 			}else if(index.Equals("jfish")){
 				source.PlayOneShot(jfish,0.3f);
+				text.text = "Sea Nettle";
 			}else if(index.Equals("school")){
 				source.PlayOneShot(school,0.3f);
+				text.text = "Bluestripe Snapper";
 			}else{
 				source.PlayOneShot(whale,0.3f);
+				text.text = "Humpback Whale";
 			}
 		}else if (Input.GetKeyDown (KeyCode.Z) && !index.Equals("") && stg1){
 			//display info
